@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/petar/Documents/CppProjects/Assignment 1/code - linux/Exercises.cpp
+list
+-
+iostream
+-
+cmath
+-
+Exercises.h
+/home/petar/Documents/CppProjects/Assignment 1/code - linux/Exercises.h
+
+/home/petar/Documents/CppProjects/Assignment 1/code - linux/Exercises.h
+list
+-
+set
+-
+cmath
+-
+algorithm
+-
+vector
+-
+queue
+-
+

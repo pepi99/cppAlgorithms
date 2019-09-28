@@ -1,0 +1,14 @@
+ListGraph::Node nodeArray[100][100];
+for(int i  = 0; i < n; i++){
+    for(int j = 0; j < n; j++){
+       nodeArray[i][j] = g.AddNode();
+    }
+( to make the grid )
+
+for(int i  = 0; i < n; i++){
+    for(int j = 0; j < n; j++){
+     if(няма стена към i+1,j) g.addEdge(node[i][j],node[i+1][j]);
+
+     if(няма стена към i-1,j) g.addEdge(node[i][j],node[i-1][j]);
+
+     и така за 4те посоки
